@@ -1,0 +1,83 @@
+h1,h2,h3,h4,h5{
+    color: #0A0F0D;
+}
+body {
+    background: rgb(34,195,191);
+    background: linear-gradient(180deg, rgba(34,195,191,1) 5%, rgba(253,187,45,1) 95%) !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+hr{
+    background-color: #0A0F0D;
+}
+nav{
+    background-color: #3CBBB1;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+main{
+    text-align: center !important;
+    padding: 25px;
+}
+.btn{
+    width: 75%;
+    height: 100px;
+    margin: 15px;
+    border: 1px solid black !important;
+    background: none !important;
+}
+.btn:hover{
+    background-color: #3CBBB1 !important;
+}
+footer{
+    text-align: center;
+    padding-bottom: 4%;
+}
+#vertical-center{
+    padding-top: 10%;
+}
+#author{
+    padding-bottom: 20px;
+}
+#about img{
+    max-width: 300px;
+    padding: 25px;
+}
+form{
+    color: #0A0F0D !important;
+    padding: 15px;
+}
+form .btn{
+    background-color: #3CBBB1 !important;
+    width: 200px;
+    height: 100px;
+}
+form .btn:hover{
+    background-color: rgb(114, 185, 179) !important;
+}
+
+input,textarea{
+    background: none !important;
+    border: 1px solid #0A0F0D !important;
+    text-align: center;
+    color: #0A0F0D !important;
+}
+
+input:focus,textarea:focus{
+    color: black !important;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    background-color: cadetblue !important;
+    padding: 15px;
+    border: 1px solid #0A0F0D !important;
+    height: 500px;
+}
+
+.card .btn{
+    height: 50px;
+    padding: 10px;
+}
